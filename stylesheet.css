@@ -1,0 +1,39 @@
+*{
+    color: #888;
+}
+QMainWindow{
+    background: url(img/bg.png);
+}
+
+QFrame#information{
+    background-color: #DAE3FD;
+    border-radius: 5px;
+}
+
+QLineEdit{
+    border: transparent;
+    border-bottom: 2px solid #333;
+    background: transparent;
+    line-height: 40;
+    font-size: 20px;
+    color: #333;
+}
+
+QLabel{
+    background: transparent;
+}
+
+QLabel#temp{
+    font-size: 56px;
+    line-height: 56px;
+}
+
+QLabel#status{
+    font-size: 20px;
+    text-align: right;
+}
+
+QLabel#time{
+    font-size: 14px;
+    text-align: right;
+}
